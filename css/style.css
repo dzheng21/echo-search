@@ -1,0 +1,234 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: #02B3CD;
+}
+body {
+    font-family: "Euclid Circular A", sans-serif !important;
+}
+h1 {
+    color: #2E556F;
+    text-decoration-line: underline;
+    text-decoration-color: #F3A33A;
+    -webkit-text-decoration-line: underline;
+    -webkit-text-decoration-color: #F3A33A;
+}
+h2 {
+    color: #2E556F;
+}
+p {
+    color: #2E556F;
+}
+
+.footer {
+    background-color: #2E556F;
+    color: white;
+}
+.footer hr {
+    background-color: white;
+    margin-top: 5%;
+    height: 2px;
+}
+.footer-nav-link {
+    color: white;
+}
+.footer-nav-link:hover {
+    color: #02B3CD;
+    text-decoration: none;
+    -webkit-text-decoration: none;
+}
+.container-fluid h1 {
+    font-weight:bold;
+}
+.navbar {
+    background-color:white;
+    height:66px;
+}
+.navbar-collapse {
+    background-color:white;
+    border-radius: 20px;
+}
+.nav-link {
+    color: #02B3CD;
+}
+.faq-bg {
+    background-image: url('../echo-assets/boston_bg_lg.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: auto 100%;
+}
+.svg-bg {
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: visible;
+}
+.echo-icon-white {
+    filter: invert(100%) sepia(8%) saturate(7488%) hue-rotate(252deg) brightness(109%) contrast(109%);
+}
+.echo-icon-dkblue {
+    filter: invert(30%) sepia(7%) saturate(3981%) hue-rotate(161deg) brightness(86%) contrast(81%);
+}
+.description-icon {
+    padding-bottom: 10%;
+    filter: invert(100%) sepia(8%) saturate(7488%) hue-rotate(252deg) brightness(109%) contrast(109%);
+}
+.purpose-icon, .video-icon {
+    text-align: center;
+}
+.works-icon {
+    filter: invert(77%) sepia(8%) saturate(4002%) hue-rotate(337deg) brightness(98%) contrast(94%);
+}
+.carousel-caption {
+    width:100%;
+    position: relative !important;
+    left:0 !important;
+    top:0 !important;
+}
+.carousel-inner p {
+    font-weight: 300;
+}
+.card {
+    color: #2E556F;
+    border: none !important;
+}
+.card-header {
+    background-color: rgba(255, 255, 255, 1.0) !important;
+}
+.card-header h5 {
+    display:inline;
+    vertical-align: middle;
+    padding-left: 5%;
+}
+.boston_bg, .boston_bg-lg {
+    position: absolute;
+}
+.blue-btn, .blue-btn-lg {
+    color: white;
+    background-color: #02B3CD;
+    border-radius: 10px;
+    border: none;
+}
+.blue-btn:hover, .blue-btn-lg:hover {
+    background-color: #2E556F;
+    color: white;
+    text-decoration: none;
+    -webkit-text-decoration: none;
+}
+.blue-btn {
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+.blue-btn-lg {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.dd-btn {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    color: #02B3CD;
+}
+
+#description, #purpose, #works, #video, #questions {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 40px;
+}
+#description {
+  background-color: #2E556F;
+  text-align: center;
+  color: white;
+}
+#purpose {
+  background-color: #C2E4DD;
+  color: #2E556F;
+}
+#works {
+  background-color: #2E556F;
+  color: white;
+}
+#works h1 {
+  color: white;
+}
+#works h5 {
+  margin-bottom: 0;
+}
+#works p, #video p {
+    color: white;
+}
+#video p {
+    font-weight: 300;
+}
+#video {
+    background-color: #2E556F;
+    color: white;
+}
+#video h1 {
+    color: white;
+    text-decoration: none;
+    -webkit-text-decoration: none;
+}
+#questions {
+    background-color: white;
+    color: #2E556F;
+}
+#questions p {
+    line-height: .5em;
+}
+#questions a {
+    color: #02B3CD;
+}
+#questions a:hover {
+    color: #2E556F;
+    text-decoration: none;
+    -webkit-text-decoration: none;
+}
+#partners {
+    padding-top: 5%;
+    background-color: #C2E4DD;
+    color: #2E556F;
+}
+#try-it, #another-question {
+    border-radius: 20px;
+    background-color:white;
+    text-align: center;
+}
+#try-it h1, #another-question h1 {
+    text-decoration: none;
+    -webkit-text-decoration: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .col-desc {
+        padding: 5%;
+    }
+    .navbar-collapse .nav-link {
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 0%;
+    }
+    .navbar-collapse .navbar-btn {
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #questions a {
+        line-height: 1em;
+    }
+}
