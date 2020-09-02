@@ -1,0 +1,20 @@
+{
+  "en": {
+    "navFAQ": "FAQ",
+    "navContactUs": "Contact Us",
+    "navLogin": "Log In",
+    "navSignup": "Sign Up"
+  },
+  "es": {
+    "navFAQ": "FAQ",
+    "navContactUs": "Contáctenos",
+    "navLogin": "Iniciar Sesión",
+    "navSignup": "Registrarse"
+  },
+  "zh": {
+    "navFAQ": "FAQ",
+    "navContactUs": "联系我们",
+    "navLogin": "登录",
+    "navSignup": "注册"
+  }
+}

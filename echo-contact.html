@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ECHO | Contact</title>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/EuclidCircularA.css">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+</head>
+<body class="pt-5">
+
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-sm">
+      <a class="navbar-brand" href="echo-index.html">
+        <img class="echo-icon-dkblue" src="echo-assets/ECHO_Logo_Final.svg" width="auto" height="40" class="align-top" alt="ECHO logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+            <img src="echo-assets/menu_btn.svg" width="auto" height="20" alt="Menu Button">
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse pb-4 pb-sm-0" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <a class="nav-link" href="echo-faq.html" id="navFAQ">FAQ</a>
+              <a class="nav-link pl-sm-4" href="echo-contact.html" id="navContactUs">Contact Us</a>
+              <div class="dropdown pl-3 pl-sm-4 pb-4 pb-sm-0 mt-4 mt-sm-1">
+                  <button class="dd-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="echo-assets/globe.svg" width="20" height="auto" alt="Language button">
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="nav-link pl-sm-4 mt-0" href="#en" onclick="changeToEN()">English</a>
+                      <a class="nav-link pl-sm-4" href="#es" onclick="changeToES()">Español</a>
+                      <a class="nav-link pl-sm-4" href="#zh" onclick="changeToZH()">中文</a>
+                  </div>
+              </div>
+          </ul>
+          <a class="nav-link pr-sm-4 pb-4 pb-sm-2" href="https://echolocator.org" target="_blank" id="navLogin">Log In</a>
+          <a class="blue-btn ml-3 ml-sm-0 py-2 py-sm-1" href="mailto:echolocator@bostonhousing.org?subject=Signing%20Up%20for%20ECHO&body=Hi%20there!%0D%0A%0D%0AMy%20name%20is%20%28please%20enter%20your%20full%20name%29%20and%20I%20would%20like%20to%20sign%20up%20to%20use%20ECHO.%0D%0A%0D%0A%0D%0AMy%20contact%20information%20is%20below:%0D%0A%0D%0APhone:%20%28please%20enter%20your%20phone%20number%29%0D%0A%0D%0AEmail:%20%28please%20enter%20your%20email%29%0D%0A%0D%0A%0D%0A%0D%0AThank%20You!" id="navSignup">Sign Up</a>
+    </div>
+    </nav>
+
+    <!-- intro section -->
+    <div class="container-fluid pt-5">
+        <div class="container-fluid py-5">
+            <div class="row justify-content-start">
+                <div class="col-10 col-sm-8 offset-1 offset-md-2">
+                    <h1>Contact Us</h1>
+                    <p>Have questions? Want to speak to our team? Email us anytime.</p>
+                </div>
+                <div class="col offset-1 offset-md-2 pt-3">
+                    <p class="text-uppercase d-none">Email Us</p>
+                    <a class="blue-btn-lg" href="mailto:echolocator@bostonhousing.org">echolocator@bostonhousing.org</a>
+                </div>
+                <div class="w-100 d-block d-lg-none py-3"></div>
+                <div class="col offset-1 offset-md-2 offset-lg-0 pt-lg-3 d-none">
+                    <p class="text-uppercase">Call Us</p>
+                    <a class="blue-btn-lg" href="tel:1234567890">(123) 456-7890</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- spacers -->
+    <div class="pt-5">
+    <div class="pt-5">
+    <div class="pt-5">
+    <div class="pt-5">
+
+    <!-- footer  -->
+    <div class="container-fluid footer py-5">
+        <div class="row align-items-top">
+            <div class="col-4 col-md-2 offset-2 offset-md-0 offset-lg-1">
+                <a href="echo-index.html">
+                    <img src="echo-assets/ECHO_Logo_Final.svg" class="echo-icon-white" width="100%" height="auto" class="align-top" alt="ECHO logo">
+                </a>
+            </div>
+            <div class="w-100 d-block d-md-none py-4"></div>
+            <div class="col-6 col-md-3 offset-2 offset-md-0">
+                <h5>RESOURCES</h5>
+                <hr>
+                <a class="footer-nav-link" href="https://www.bostonhousing.org/" target="_blank">Boston Housing Authority</a></br>
+                <a class="footer-nav-link" href="echo-faq.html#housing-discrimination-scroll">Housing Descrimination</a></br>
+                <a class="footer-nav-link" href="https://bha.cvrapps.com target="_blank"">Rent Estimator</a>
+            </div>
+            <div class="w-100 d-block d-md-none py-4"></div>
+            <div class="col-6 col-md-3 offset-2 offset-md-0">
+                <h5>CONTACT</h5>
+                <hr>
+                <a class="footer-nav-link" href="mailto:echolocator@bostonhousing.org">echolocator@bostonhousing.org</a></br>
+            </div>
+            <div class="w-100 d-block d-md-none py-4"></div>
+            <div class="col-6 col-md-2 offset-2 offset-md-1 offset-lg-0 d-none">
+                <h5 class="pb-auto pb-md-1">LEGAL</h5>
+                <hr>
+                <a class="footer-nav-link" href="#">Terms</a></br>
+                <a class="footer-nav-link" href="#">Privacy</a></br>
+            </div>
+        </div>
+    </div>
+
+    <!-- custom scripts -->
+    <script src="js/languages.js"></script>
+</body>
+</html>
