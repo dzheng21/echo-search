@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ECHO | FAQ</title>
+
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- styles -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/fonts/EuclidCircularA.css">
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+</head>
+<body class="pt-5">
+
+    <!-- bg image -->
+    <div class="faq-bg">
+
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-sm">
+      <a class="navbar-brand" href="echo-index.html">
+        <img class="echo-icon-dkblue" src="echo-assets/ECHO_Logo_Final.svg" width="auto" height="40" class="align-top" alt="ECHO logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+            <img src="echo-assets/menu_btn.svg" width="auto" height="20" alt="Menu Button">
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse pb-4 pb-sm-0" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <a class="nav-link" href="echo-faq.html" id="navFAQ">FAQ</a>
+              <a class="nav-link pl-sm-4" href="echo-contact.html" id="navContactUs">Contact Us</a>
+              <div class="dropdown pl-3 pl-sm-4 pb-4 pb-sm-0 mt-4 mt-sm-1">
+                  <button class="dd-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="echo-assets/globe.svg" width="20" height="auto" alt="Language button">
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="nav-link pl-sm-4 mt-0" href="#en" onclick="changeToEN()">English</a>
+                      <a class="nav-link pl-sm-4" href="#es" onclick="changeToES()">Español</a>
+                      <a class="nav-link pl-sm-4" href="#zh" onclick="changeToZH()">中文</a>
+                  </div>
+              </div>
+          </ul>
+          <a class="nav-link pr-sm-4 pb-4 pb-sm-2" href="https://echolocator.org" target="_blank" id="navLogin">Log In</a>
+          <a class="blue-btn ml-3 ml-sm-0 py-2 py-sm-1" href="mailto:echolocator@bostonhousing.org?subject=Signing%20Up%20for%20ECHO&body=Hi%20there!%0D%0A%0D%0AMy%20name%20is%20%28please%20enter%20your%20full%20name%29%20and%20I%20would%20like%20to%20sign%20up%20to%20use%20ECHO.%0D%0A%0D%0A%0D%0AMy%20contact%20information%20is%20below:%0D%0A%0D%0APhone:%20%28please%20enter%20your%20phone%20number%29%0D%0A%0D%0AEmail:%20%28please%20enter%20your%20email%29%0D%0A%0D%0A%0D%0A%0D%0AThank%20You!" id="navSignup">Sign Up</a>
+    </div>
+    </nav>
+
+    <!-- intro section -->
+    <div class="container-fluid pt-5">
+        <div class="container-fluid py-5">
+            <div class="row justify-content-start">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-5 offset-1 offset-md-2">
+                    <h1 id="faqTitle">FAQs</h1>
+                    <p id="faqCheckHere">Check here for questions about the background of ECHO, how to use ECHO, and miscellaneous other questions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- video section  -->
+    <div class="container-fluid py-5">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="row align-items-center" id="video">
+                    <div class="col-10 col-lg-5 offset-1">
+                        <h1 id="faqHowDoIUse">How Do I Use ECHO?</h1>
+                        <p id="faqHowDoIUseInfo">ECHO provides a wide variety of information about neighborhoods in and around the City of Boston as well as instant access to the latest housing listings in the BHA’s service area. Watch this video to learn more about how to find a home that meets your needs.</p>
+                    </div>
+                    <div class="w-100 d-block d-sm-none"></div>
+                    <div class="col-10 col-lg-5 offset-1 offset-lg-0 video-icon">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/429689370?title=0&byline=0&sidedock=0" class="ivid" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- questions section  -->
+    <div class="container-fluid py-5">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="row align-items-center" id="questions">
+                    <!-- who we are -->
+                    <div class="col-10 offset-1">
+                        <h1 class="py-5" id="faqFrequentlyAskedQuestions">Frequently Asked Questions</h1>
+                        <h2 id="faqWhoWeAre">Who We Are</h2>
+                        <hr class="mb-0">
+                    </div>
+                    <div class="col-10 offset-1">
+                        <div id="accordion">
+                          <div class="card">
+                            <div class="card-header" id="heading1-1" data-toggle="collapse" data-target="#collapse1-1" aria-expanded="false" aria-controls="collapse1-1">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                                <h5 class="mb-0" id="faqWhatIsECHO">What is ECHO?</h5>
+                            </div>
+                            <div id="collapse1-1" class="collapse" aria-labelledby="heading1-1" data-parent="#questions">
+                              <div class="card-body" id="faqWhatIsECHOInfo">
+                                  ECHO, which stands for “Expanding Choice in Housing Opportunities”, is a new tool designed to help improve the housing search process for low-income families in Greater Boston and around the country. Low-income families, especially families of color, often face significant barriers to living in their neighborhood of choice, including overt racism, steering by some brokers to segregated areas, a lack of information on neighborhood options and transit accessibility, and unaffordable rents. As a new housing search tool that provides customized information on communities and affordable housing, ECHO helps overcome these barriers.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading1-2" data-toggle="collapse" data-target="#collapse1-2" aria-expanded="false" aria-controls="collapse1-2">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                              <h5 class="mb-0" id="faqWhatMakesECHODifferent">
+                                  What makes ECHO different from other housing search websites?
+                              </h5>
+                            </div>
+                            <div id="collapse1-2" class="collapse" aria-labelledby="heading1-2" data-parent="#questions">
+                              <div class="card-body" id="faqWhatMakesECHODifferentInfo">
+                                  What makes ECHO unique is that, unlike other housing search websites that focus only on finding housing units, ECHO helps families find housing units and the neighborhoods that meet their needs– a crucial innovation that rethinks the way we search for housing. ECHO is able to provide these recommendations through unique public transit data and databases on schools and public safety information. Through this focus, ECHO is the only tool serving low-income families that helps locate both neighborhoods and affordable housing.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading1_3"  data-toggle="collapse" data-target="#collapse1_3" aria-expanded="false" aria-controls="collapse1_3">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                              <h5 class="mb-0" id="faqWhoCreatedECHO">
+                                  Who created ECHO?
+                              </h5>
+                            </div>
+                            <div id="collapse1_3" class="collapse" aria-labelledby="heading1_3" data-parent="#questions">
+                              <div class="card-body" id="faqWhoCreatedECHOInfo">
+                                  ECHO was originally designed by researchers at MIT and the Boston Housing Authority (BHA) in conjunction with Conveyal, a public transportation firm, and Azavea, a web developer based in Philadelphia. The tool received generous initial support from the Boston Foundation, the Sasaki Foundation, DesignX, and MIT and is run by a growing interdisciplinary team of policymakers, researchers, designers, and programmers at the BHA.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading1_5"  data-toggle="collapse" data-target="#collapse1_5" aria-expanded="false" aria-controls="collapse1_5">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                              <h5 class="mb-0" id="faqWhoIsECHOFor">
+                                  Who is ECHO for?
+                              </h5>
+                            </div>
+                            <div id="collapse1_5" class="collapse" aria-labelledby="heading1_5" data-parent="#questions">
+                              <div class="card-body" id="faqWhoIsECHOForInfo">
+                                  ECHO was originally designed to serve Section 8 voucher holders in the Greater Boston area. In particular, the tool was designed as an effort by the BHA to affirmatively further fair housing in the region, meaning taking steps, in meeting the requirements of federal regulations, to lower barriers to low-income families accessing a greater variety of neighborhoods, as well as investing in low-income communities in Boston. Since then we have expanded ECHO’s features to help serve low-income families without vouchers who are struggling to find affordable housing in and around Boston. We are continuing to improve upon our tool so that it can be helpful for anyone searching for affordable housing in Massachusetts and beyond.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+
+                    <!-- how echo works -->
+                    <div class="col-10 offset-1 pt-5">
+                        <h2 id ="faqHowECHOWorks">How ECHO Works</h2>
+                        <hr class="mb-0">
+                    </div>
+                    <div class="col-10 offset-1">
+                        <div id="accordion">
+                          <div class="card">
+                            <div class="card-header" id="heading2_1" data-toggle="collapse" data-target="#collapse2_1" aria-expanded="false" aria-controls="collapse2_1">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                                <h5 class="mb-0" id="faqHowECHORecommends">How does ECHO recommend neighborhoods?</h5>
+                            </div>
+                            <div id="collapse2_1" class="collapse" aria-labelledby="heading2_1" data-parent="#questions">
+                              <div class="card-body" id="faqHowECHORecommendsInfo">
+                                  ECHO asks users to enter “key destinations” like work addresses, family member locations, or other places that matter most. It then asks for preferences on commuting time, school quality, and public safety. Using its unique public transit algorithm, and based on those key addresses and user preferences, ECHO provides neighborhood recommendations as well as easy-to-understand metrics on school quality and public safety, detailed neighborhood information, and links to units from a variety of websites (including BHA listings) within users’ budgets.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading2_3"  data-toggle="collapse" data-target="#collapse2_3" aria-expanded="false" aria-controls="collapse2_3">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                              <h5 class="mb-0" id="faqHowECHOMeasuresPublicSafety">
+                                  How does ECHO measure public safety?
+                              </h5>
+                            </div>
+                            <div id="collapse2_3" class="collapse" aria-labelledby="heading2_3" data-parent="#questions">
+                              <div class="card-body" id="faqHowECHOMeasuresPublicSafetyInfo">
+                                  ECHO’s public safety measures reflect violent crime rates as reported by the Federal Bureau of Investigations (FBI) as well as the Boston and Cambridge Police Departments in 2019. The percentile scores indicate how each neighborhood compares relative to all other ZIP Codes in Massachusetts.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading2_4"  data-toggle="collapse" data-target="#collapse2_4" aria-expanded="false" aria-controls="collapse2_4">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                              <h5 class="mb-0" id="faqHowECHOMeasuresSchoolQuality">
+                                  How does ECHO measure school quality?
+                              </h5>
+                            </div>
+                            <div id="collapse2_4" class="collapse" aria-labelledby="heading2_4" data-parent="#questions">
+                              <div class="card-body" id="faqHowECHOMeasuresSchoolQualityInfo">
+                                  ECHO’s information on school quality comes from the Massachusetts Department of Elementary and Secondary Education. Our metric balances both an overall measure of school quality across each ZIP Code, as well as the Department’s 2018-2019 Accountability Metrics and “Economically Disadvantaged” Growth Metrics, which gauge school-wide achievement and academic growth among disadvantaged students, respectively. These data include public schools, but not private, charter, vocational, technical, or virtual institutions.
+                              </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading2_5"  data-toggle="collapse" data-target="#collapse2_5" aria-expanded="false" aria-controls="collapse2_5">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                              <h5 class="mb-0" id="faqEstimatedMaximumRent">
+                                  What does ECHO mean by "estimated maximum rent"?
+                              </h5>
+                            </div>
+                            <div id="collapse2_5" class="collapse" aria-labelledby="heading2_5" data-parent="#questions">
+                              <div class="card-body" id="faqEstimatedMaximumRentInfo">
+                                  If you hold a Section 8 voucher from the BHA, the “estimated maximum rent” reflects the estimated amount of rent it will cover each month. This amount varies according to the size of your household as listed on your voucher. It also varies by ZIP Code, meaning that your voucher may be larger if you choose to live in a neighborhood with higher average rents. The amounts displayed in ECHO are general estimates only. We recommend using the BHA’s Rent Estimator tool (boston.maxrent.org), linked in ECHO, to verify that a specific unit will be affordable with your voucher.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading2_6" data-toggle="collapse" data-target="#collapse2_6" aria-expanded="false" aria-controls="collapse2_6">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                                <h5 class="mb-0" id="faqOnlyGreaterBoston">Why does ECHO only show apartments in the Greater Boston area?</h5>
+                            </div>
+                            <div id="collapse2_6" class="collapse" aria-labelledby="heading2_6" data-parent="#questions">
+                              <div class="card-body" id="faqOnlyGreaterBostonInfo">
+                                  ECHO was originally designed to help Section 8 voucher holders in the Greater Boston Area find affordable housing units and neighborhoods that meet their needs. However, we eventually hope to expand the tool to cover communities across the rest of Massachusetts and in other states as well.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card"  id="housing-discrimination-scroll">
+                            <div class="card-header" id="heading2_7" data-toggle="collapse" data-target="#collapse2_7" aria-expanded="false" aria-controls="collapse2_7">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                                <h5 class="mb-0" id="faqHowCanISendFeedback">How can I send feedback?</h5>
+                            </div>
+                            <div id="collapse2_7" class="collapse" aria-labelledby="heading2_7" data-parent="#questions">
+                              <div class="card-body" id="faqHowCanISendFeedbackInfo">
+                                  We welcome your suggestions on how to further improve our tool. Please send any feedback to echolocator@bostonhousing.org.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- housing discrimination questions -->
+                    <div class="col-10 offset-1 pt-5">
+                        <h2 id="faqHousingDiscriminationQuestions">Housing Discrimination Questions</h2>
+                        <hr class="mb-0">
+                    </div>
+                    <div class="col-10 offset-1">
+                        <div id="accordion">
+                          <div class="card">
+                            <div class="card-header" id="heading3_1" data-toggle="collapse" data-target="#collapse3_1" aria-expanded="false" aria-controls="collapse3_1">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                                <h5 class="mb-0" id="faqIndentifyHousingDiscrimination">How do I indentify housing discrimination?</h5>
+                            </div>
+                            <div id="collapse3_1" class="collapse" aria-labelledby="heading3_1" data-parent="#questions">
+                              <div class="card-body" id="faqIndentifyHousingDiscriminationInfo">When interacting with your landlord or housing provider, note down any facts, circumstances, language, and/or behavior that suggest a potential civil rights violation has occurred. Examples might include:</br></br>
+                                  <span>&#8226;</span> Racial, ethnic, gender, and cultural differences between the offender and victim.</br></br>
+                                  <span>&#8226;</span> Bias-related comments, written statements, or gestures made by the offender.</br></br>
+                                  <span>&#8226;</span> Bias-related drawings, markings, symbols, and graffiti.</br></br>
+                                  <span>&#8226;</span> Objects or items that represent the work of organized hate groups left at the scene of the incident.</br></br>
+                                  <span>&#8226;</span> Victims or witnesses who perceive that the incident was motivated by bias.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading3_2" data-toggle="collapse" data-target="#collapse3_2" aria-expanded="false" aria-controls="collapse3_2">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                              <h5 class="mb-0" id="faqCommonFormsOfHousingDiscrimination">
+                                  What are some common forms of housing discrimination?
+                              </h5>
+                            </div>
+                            <div id="collapse3_2" class="collapse" aria-labelledby="heading3_2" data-parent="#questions">
+                              <div class="card-body" id="faqCommonFormsOfHousingDiscriminationInfo">
+                                  The Fair Housing Act of 1968 made it illegal to discriminate against renters or homebuyers due to their race, color, religion, sex, national origin, familial status, or disability. Unfortunately, more than 50 years after these landmark civil rights protections were enacted, housing discrimination remains a significant problem across the country. Other common forms of housing discrimination include source of income discrimination (e.g., using a voucher to pay for rent), which is illegal in Massachusetts.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading3_3"  data-toggle="collapse" data-target="#collapse3_3" aria-expanded="false" aria-controls="collapse3_3">
+                                <img src="echo-assets/expand.svg" width="auto" height="15" class="align-center" alt="expand logo">
+                              <h5 class="mb-0" id="faqIHaveBeenDiscriminatedAgainst">
+                                  I believe I have been discriminated against...
+                              </h5>
+                            </div>
+                            <div id="collapse3_3" class="collapse" aria-labelledby="heading3_3" data-parent="#questions">
+                              <div class="card-body" id="faqIHaveBeenDiscriminatedAgainstInfo">If you believe you have been the victim of housing discrimination, please contact the Office of Civil Rights (OCR) at (617) 988-4383 or by email at ocr@bostonhousing.org.</br></br>
+                                If you need immediate assistance, you can also call the BHA’s non-emergency 24-hour civil rights hotline at (617) 695-3531.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!-- housing discrimination resouces -->
+                    <div class="col-10 offset-1 pt-5">
+                        <h2 id="faqHousingDiscriminationResources">Housing Discrimination Resources</h2>
+                        <h5 class="pt-4 text-uppercase" id="faqOfficeOfCivilRights">BHA Office of Civil Rights (OCR)</h5>
+                        <a href="tel:6179884383">(617) 988-4383</a></br>
+                        <a href="mailto:ocr@bostonhousing.org">ocr@bostonhousing.org</a>
+
+                        <h5 class="pt-4 text-uppercase" id="faqFairHousingAndEquity">City of Boston's Fair Housing and Equity</h5>
+                        <a href="tel:6176352500">(617) 635-2500</a></br>
+                        <a href="https://www.boston.gov/departments/fair-housing-and-equity" target="_blank">www.boston.gov/departments/fair-housing-and-equity</a>
+
+                        <h5 class="pt-4 text-uppercase" id="faqCommissionAgainstDiscrimination">Massachusetts Commission Against Discrimination</h5>
+                        <a href="tel:6179946000">(617) 994-6000</a></br>
+                        <a href="https://www.mass.gov/orgs/massachusetts-commission-against-discrimination" target="_blank">www.mass.gov/orgs/massachusetts-commission-against-discrimination</a>
+
+                        <h5 class="pt-4 text-uppercase" id="faqDepartmentOfHousingAndUrbanDevelopment">US Department of Housing and Urban Development</h5>
+                        <a href="tel:6179948200">(617) 994-8200</a></br>
+                        <a href="https://www.hud.gov" target="_blank">www.hud.gov</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- partners section -->
+    <div class="container-fluid pt-5">
+        <div class="row align-items-center pb-5">
+            <div class="col pb-5">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-sm-8 col-md-6 py-5" id="another-question">
+                        <div class="row justify-content-center">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="pb-4" id="faqHaveAQuestionYouDontSee">Have a question that you don't see here?</h1>
+                                <a class="blue-btn-lg" href="echo-contact.html" id="faqContactUs">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <div class="container-fluid footer py-5">
+        <div class="row align-items-top">
+            <div class="col-4 col-md-2 offset-2 offset-md-0 offset-lg-1">
+                <a href="echo-index.html">
+                    <img src="echo-assets/ECHO_Logo_Final.svg" class="echo-icon-white" width="100%" height="auto" class="align-top" alt="ECHO logo">
+                </a>
+            </div>
+            <div class="w-100 d-block d-md-none py-4"></div>
+            <div class="col-6 col-md-3 offset-2 offset-md-0">
+                <h5 id="footerResources">RESOURCES</h5>
+                <hr>
+                <a class="footer-nav-link" href="https://www.bostonhousing.org/" target="_blank" id="footerBostonHousingAuthority">Boston Housing Authority</a></br>
+                <a class="footer-nav-link" href="echo-faq.html#housing-discrimination-scroll" id="footerHousingDiscrimination">Housing Descrimination</a></br>
+                <a class="footer-nav-link" href="https://bha.cvrapps.com" target="_blank" id="footerRentEstimator">Rent Estimator</a>
+            </div>
+            <div class="w-100 d-block d-md-none py-4"></div>
+            <div class="col-6 col-md-3 offset-2 offset-md-0">
+                <h5 id="footerContact">CONTACT</h5>
+                <hr>
+                <a class="footer-nav-link" href="mailto:echolocator@bostonhousing.org">echolocator@bostonhousing.org</a></br>
+            </div>
+            <div class="w-100 d-block d-md-none py-4"></div>
+            <div class="col-6 col-md-2 offset-2 offset-md-1 offset-lg-0 d-none">
+                <h5 class="pb-auto pb-md-1" id="footerLegal">LEGAL</h5>
+                <hr>
+                <a class="footer-nav-link" href="#" id="footerTerms">Terms</a></br>
+                <a class="footer-nav-link" href="#" id="footerPrivacy">Privacy</a></br>
+            </div>
+        </div>
+    </div>
+
+    <!-- custom scripts -->
+    <script src="js/languages.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+{
+  "en": {
+    "navFAQ": "FAQ",
+    "navContactUs": "Contact Us",
+    "navLogin": "Log In",
+    "navSignup": "Sign Up",
+
+    "footerResources": "RESOURCES",
+    "footerBostonHousingAuthority": "Boston Housing Authority",
+    "footerHousingDiscrimination": "Housing Discrimination",
+    "footerRentEstimator": "Rent Estimator",
+    "footerContact": "CONTACT",
+    "footerLegal": "LEGAL",
+    "footerTerms": "Terms",
+    "footerPrivacy": "Privacy",
+
+    "indexFinallyEasier": "Finally, an easier way to find affordable housing.",
+    "indexRevolutionaryTool": "ECHO is a revolutionary housing search tool designed to improve the housing search process for low-income families in Greater Boston and around the country.",
+    "indexSearchNeighborhoods": "Search neighborhoods",
+    "indexCompareApartments": "Compare apartments",
+    "indexFindNewHome": "Find your new home",
+    "indexOurPurpose": "Our Purpose",
+    "indexPathwayToSucceed": "At ECHO, we believe in giving every family a pathway to succeed.",
+    "indexDigitalInterface": "That’s why we’ve designed a digital interface that brings together information on neighborhoods, public transportation, and housing unit availability to make the housing search process as easy as possible for low-income families looking to find housing in the neighborhood that’s right for them.",
+    "indexHowItWorks": "How It Works",
+    "indexNeighborhoodSearch": "Neighborhood Search",
+    "indexNeighborhoodSearchInfo": "ECHO provides customized neighborhood recommendations based on the preferences and particular transit needs of families.",
+    "indexLookForApartments": "Look For Apartments",
+    "indexLookForApartmentsInfo": "Listings are populated from popular real estate websites and when clicked on, show the price, address, travel details, and more.",
+    "indexCustomizeYourResults": "Customize Your Results",
+    "indexCustomizeYourResultsInfo": "Users enter their information into the profile page such as their budget, frequent locations, typical transit methods, and neighborhood preferences to ensure their neighborhood recommendations are tailored to them.",
+    "indexOurPartners": "Our Partners",
+    "indexOurThanks": "Our thanks go out to our partners for their financial support and wisdom.",
+    "indexTryItOut": "Try It Out!",
+    "indexBecomeMember": "Become one of our first members and start using ECHO today.",
+
+    "faqTitle": "FAQs",
+    "faqCheckHere": "Check here for questions about the background of ECHO, how to use ECHO, and miscellaneous other questions.",
+    "faqHowDoIUse": "How Do I Use ECHO?",
+    "faqHowDoIUseInfo": "ECHO provides a wide variety of information about neighborhoods in and around the City of Boston as well as instant access to the latest housing listings in the BHA’s service area. Watch this video to learn more about how to find a home that meets your needs.",
+    "faqFrequentlyAskedQuestions": "Frequently Asked Questions",
+    "faqWhoWeAre": "Who We Are",
+    "faqWhatIsECHO": "What is ECHO?",
+    "faqWhatIsECHOInfo": "ECHO, which stands for “Expanding Choice in Housing Opportunities”, is a new tool designed to help improve the housing search process for low-income families in Greater Boston and around the country. Low-income families, especially families of color, often face significant barriers to living in their neighborhood of choice, including overt racism, steering by some brokers to segregated areas, a lack of information on neighborhood options and transit accessibility, and unaffordable rents. As a new housing search tool that provides customized information on communities and affordable housing, ECHO helps overcome these barriers.",
+    "faqWhatMakesECHODifferent": "What makes ECHO different from other housing search websites?",
+    "faqWhatMakesECHODifferentInfo": "What makes ECHO unique is that, unlike other housing search websites that focus only on finding housing units, ECHO helps families find housing units and the neighborhoods that meet their needs– a crucial innovation that rethinks the way we search for housing. ECHO is able to provide these recommendations through unique public transit data and databases on schools and public safety information. Through this focus, ECHO is the only tool serving low-income families that helps locate both neighborhoods and affordable housing.",
+    "faqWhoCreatedECHO": "Who created ECHO?",
+    "faqWhoCreatedECHOInfo": "ECHO was originally designed by researchers at MIT and the Boston Housing Authority (BHA) in conjunction with Conveyal, a public transportation firm, and Azavea, a web developer based in Philadelphia. The tool received generous initial support from the Boston Foundation, the Sasaki Foundation, DesignX, and MIT and is run by a growing interdisciplinary team of policymakers, researchers, designers, and programmers at the BHA.",
+    "faqWhoIsECHOFor": "Who is ECHO for?",
+    "faqWhoIsECHOForInfo": "ECHO was originally designed to serve Section 8 voucher holders in the Greater Boston area. In particular, the tool was designed as an effort by the BHA to affirmatively further fair housing in the region, meaning taking steps, in meeting the requirements of federal regulations, to lower barriers to low-income families accessing a greater variety of neighborhoods, as well as investing in low-income communities in Boston. Since then we have expanded ECHO’s features to help serve low-income families without vouchers who are struggling to find affordable housing in and around Boston. We are continuing to improve upon our tool so that it can be helpful for anyone searching for affordable housing in Massachusetts and beyond.",
+    "faqHowECHOWorks": "How ECHO Works",
+    "faqHowECHORecommends": "How does ECHO recommend neighborhoods?",
+    "faqHowECHORecommendsInfo": "ECHO asks users to enter “key destinations” like work addresses, family member locations, or other places that matter most. It then asks for preferences on commuting time, school quality, and public safety. Using its unique public transit algorithm, and based on those key addresses and user preferences, ECHO provides neighborhood recommendations as well as easy-to-understand metrics on school quality and public safety, detailed neighborhood information, and links to units from a variety of websites (including BHA listings) within users’ budgets.",
+    "faqHowECHOMeasuresPublicSafety": "How does ECHO measure public safety?",
+    "faqHowECHOMeasuresPublicSafetyInfo": "ECHO’s public safety measures reflect violent crime rates as reported by the Federal Bureau of Investigations (FBI) as well as the Boston and Cambridge Police Departments in 2019. The percentile scores indicate how each neighborhood compares relative to all other ZIP Codes in Massachusetts.",
+    "faqHowECHOMeasuresSchoolQuality": "How does ECHO measure school quality?",
+    "faqHowECHOMeasuresSchoolQualityInfo": "ECHO’s information on school quality comes from the Massachusetts Department of Elementary and Secondary Education. Our metric balances both an overall measure of school quality across each ZIP Code, as well as the Department’s 2018-2019 Accountability Metrics and “Economically Disadvantaged” Growth Metrics, which gauge school-wide achievement and academic growth among disadvantaged students, respectively. These data include public schools, but not private, charter, vocational, technical, or virtual institutions.",
+    "faqEstimatedMaximumRent": "What does ECHO mean by \"estimated maximum rent\"?",
+    "faqEstimatedMaximumRentInfo": "If you hold a Section 8 voucher from the BHA, the “estimated maximum rent” reflects the estimated amount of rent it will cover each month. This amount varies according to the size of your household as listed on your voucher. It also varies by ZIP Code, meaning that your voucher may be larger if you choose to live in a neighborhood with higher average rents. The amounts displayed in ECHO are general estimates only. We recommend using the BHA’s Rent Estimator tool (boston.maxrent.org), linked in ECHO, to verify that a specific unit will be affordable with your voucher.",
+    "faqOnlyGreaterBoston": "Why does ECHO only show apartments in the Greater Boston area?",
+    "faqOnlyGreaterBostonInfo": "ECHO was originally designed to help Section 8 voucher holders in the Greater Boston Area find affordable housing units and neighborhoods that meet their needs. However, we eventually hope to expand the tool to cover communities across the rest of Massachusetts and in other states as well.",
+    "faqHowCanISendFeedback": "How can I send feedback?",
+    "faqHowCanISendFeedbackInfo": "We welcome your suggestions on how to further improve our tool. Please send any feedback to echolocator@bostonhousing.org.",
+    "faqHousingDiscriminationQuestions": "Housing Discrimination Questions",
+    "faqIndentifyHousingDiscrimination": "How do I indentify housing discrimination?",
+    "faqIndentifyHousingDiscriminationInfo": "When interacting with your landlord or housing provider, note down any facts, circumstances, language, and/or behavior that suggest a potential civil rights violation has occurred. Examples might include:</br></br>
+        <span>&#8226;</span> Racial, ethnic, gender, and cultural differences between the offender and victim.</br></br>
+        <span>&#8226;</span> Bias-related comments, written statements, or gestures made by the offender.</br></br>
+        <span>&#8226;</span> Bias-related drawings, markings, symbols, and graffiti.</br></br>
+        <span>&#8226;</span> Objects or items that represent the work of organized hate groups left at the scene of the incident.</br></br>
+        <span>&#8226;</span> Victims or witnesses who perceive that the incident was motivated by bias.",
+    "faqCommonFormsOfHousingDiscrimination": "What are some common forms of housing discrimination?",
+    "faqCommonFormsOfHousingDiscriminationInfo": "The Fair Housing Act of 1968 made it illegal to discriminate against renters or homebuyers due to their race, color, religion, sex, national origin, familial status, or disability. Unfortunately, more than 50 years after these landmark civil rights protections were enacted, housing discrimination remains a significant problem across the country. Other common forms of housing discrimination include source of income discrimination (e.g., using a voucher to pay for rent), which is illegal in Massachusetts.",
+    "faqIHaveBeenDiscriminatedAgainst": "I believe I have been discriminated against...",
+    "faqIHaveBeenDiscriminatedAgainstInfo": "If you believe you have been the victim of housing discrimination, you should consider filing a complaint with one or more of the following agencies:</br></br>
+      <span>&#8226;</span> If you hold a BHA-issued housing voucher or live in BHA public housing, you can file an internal complaint with the BHA by contacting the Office of Civil Rights (OCR) at (617) 988-4383 or by email at ocr@bostonhousing.org.</br></br>
+      <span>&#8226;</span> You can file a complaint with the City of Boston’s Office Fair Housing and Equity at (617) 635-2500 or online.</br></br>
+      <span>&#8226;</span> You can file a complaint with the Massachusetts Commission Against Discrimination, which investigates reports of discrimination in housing. You can reach them at (617) 994-6000 or online.</br></br>
+      <span>&#8226;</span> You can contact the U.S. Department of Housing and Urban Development at (617) 994-8200 or file a complaint online.</br></br>
+      If you need immediate assistance, you can also call the BHA’s non-emergency 24-hour civil rights hotline at (617) 695-3531.",
+    "faqHousingDiscriminationResources": "Housing Discrimination Resources",
+    "faqOfficeOfCivilRights": "BHA OFFICE OF CIVIL RIGHTS (OCR)",
+    "faqFairHousingAndEquity": "CITY OF BOSTON'S FAIR HOUSING AND EQUITY",
+    "faqCommissionAgainstDiscrimination": "MASSACHUSETTS COMMISSION AGAINST DISCRIMINATION",
+    "faqDepartmentOfHousingAndUrbanDevelopment": "US DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT",
+    "faqHaveAQuestionYouDontSee": "Have a question that you don't see here?",
+    "faqContactUs": "Contact Us",
+
+    "contactTitle": "Contact Us",
+    "contactHaveQuestions": "Have questions? Want to speak to our team? Email us anytime.",
+    "contactEmailUs": "Email Us",
+    "contactCallUs": "Call Us"
+  },
+  "es": {
+    "navFAQ": "FAQ",
+    "navContactUs": "Contáctenos",
+    "navLogin": "Iniciar Sesión",
+    "navSignup": "Registrarse"
+  },
+  "zh": {
+    "navFAQ": "FAQ",
+    "navContactUs": "联系我们",
+    "navLogin": "登录",
+    "navSignup": "注册"
+  }
+}
