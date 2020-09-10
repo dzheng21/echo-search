@@ -84,8 +84,12 @@
     "faqCommissionAgainstDiscrimination": "MASSACHUSETTS COMMISSION AGAINST DISCRIMINATION",
     "faqDepartmentOfHousingAndUrbanDevelopment": "US DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT",
     "faqHaveAQuestionYouDontSee": "Have a question that you don't see here?",
-    "faqContactUs": "Contact Us"
+    "faqContactUs": "Contact Us",
 
+    "contactTitle": "Contact Us",
+    "contactHaveQuestions": "Have questions? Want to speak to our team? Email us anytime.",
+    "contactEmailUs": "Email Us",
+    "contactCallUs": "Call Us"
   },
   "es": {
     "navFAQ": "FAQ",
