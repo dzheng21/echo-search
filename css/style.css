@@ -55,7 +55,7 @@ p {
     color: #02B3CD;
 }
 .faq-bg {
-    background-image: url('../echo-assets/boston_bg_lg.png');
+    background-image: url('../assets/boston_bg_lg.png');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-attachment: scroll;
